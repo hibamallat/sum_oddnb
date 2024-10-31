@@ -1,5 +1,8 @@
 #The user must enter a number n
-n = int(input("Enter n please: "))
+n = int(input("Enter n please: ")) 
+if n <= 0:
+    print("The number must be positive")
+
 #At the beginning, the sum is 0 
 sum = 0
 
